@@ -1,4 +1,4 @@
-# Nginx, UFW, Let's Encrypt Setup Guide
+# Setup Guide for Nginx with Gzip and SSL with Let's Encrypt
 
 Guide for setting up Nginx on Ubuntu 16.04 with Universal Firewall (ufw) and SSL with Let's Encrypt
 

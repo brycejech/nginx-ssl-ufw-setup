@@ -159,3 +159,9 @@ gzip_types text/plain text/css application/json application/x-javascript text/xm
 ```
 
 Verify proper syntax with `sudo nginx -t`. If all goes well reload nginx conf with `sudo systemctl reload nginx` and you are good to go ;)
+
+
+This guide was put together from several Digital Ocean guides. The can be found here:
+[Secure Nginx with Let's Encrypt](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04)
+[Set up a Firewall with UFW on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04)
+[Add gzip to Nginx on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-add-the-gzip-module-to-nginx-on-ubuntu-16-04)

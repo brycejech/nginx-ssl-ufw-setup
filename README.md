@@ -106,13 +106,13 @@ This will run the renewal daily at 3:15am
 
 ## Further SSL hardening
 
-With it's current configuration, we will be capped at a B grade using the [SSL Labs Server Test](https://www.ssllabs.com/ssltest/) due to weak Diffie-Hellman parameters. We are going to genereate a new dhparam.pem file and add it to our server block.
+With it's current configuration, we will be capped at a B grade using the [SSL Labs Server Test](https://www.ssllabs.com/ssltest/) due to weak Diffie-Hellman parameters. We are going to genereate a new `dhparam.pem` file and add it to our server block.
 
 ```bash
 sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 ```
 
-This will take a long time to run. Once it's complete, edit your nginx default configuration file in /etc/nginx/sites-available/default.
+This will take a long time to run. Once it's complete, edit your nginx default configuration file in `/etc/nginx/sites-available/default`.
 
 Add the following line to your server block:
 
